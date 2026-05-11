@@ -1,0 +1,13 @@
+{
+  "CTAttenuation": {
+    "mapped_to": "technical_measurements.mean_hu"
+  },
+
+  "ROI": {
+    "mapped_to": "technical_measurements.measurement_area"
+  },
+
+  "HounsfieldUnits": {
+    "mapped_to": "technical_measurements.unit"
+  }
+}
