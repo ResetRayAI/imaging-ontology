@@ -1,0 +1,17 @@
+{
+  "object_type": "CTAttenuation",
+
+  "measurement": {
+    "value": 42,
+    "unit": "HU"
+  },
+
+  "measurement_area": {
+    "type": "ROI"
+  },
+
+  "scope": {
+    "technical_only": true,
+    "not_a_diagnosis": true
+  }
+}
