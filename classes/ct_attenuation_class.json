@@ -1,0 +1,23 @@
+{
+  "class_id": "CTAttenuation",
+
+  "label_en": "CT Attenuation",
+  "label_ru": "КТ-аттенуация",
+
+  "description_en": "Quantitative representation of X-ray attenuation in CT imaging.",
+  "description_ru": "Количественное представление ослабления рентгеновского излучения в КТ.",
+
+  "related_entities": [
+    "HounsfieldUnits",
+    "ROI",
+    "QuantitativeCT"
+  ],
+
+  "semantic_scope": "technical_imaging",
+
+  "not_intended_for": [
+    "diagnosis",
+    "disease_classification",
+    "clinical_decision_support"
+  ]
+}
