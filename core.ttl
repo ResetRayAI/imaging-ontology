@@ -1,0 +1,74 @@
+@prefix rr: <https://docs.resetray.ru/ontology#> .
+@prefix schema: <https://schema.org/> .
+
+rr:CTStudy a schema:DefinedTerm ;
+    schema:name "CTStudy" ;
+    schema:description "CT/DICOM imaging study used for technical quantitative analysis." .
+
+rr:ROI a schema:DefinedTerm ;
+    schema:name "ROI" ;
+    schema:description "Region of interest used for quantitative attenuation extraction." .
+
+rr:HU a schema:DefinedTerm ;
+    schema:name "HU" ;
+    schema:description "Hounsfield Unit — quantitative CT attenuation unit." .
+
+rr:VertebralAttenuation a schema:DefinedTerm ;
+    schema:name "VertebralAttenuation" ;
+    schema:description "Quantitative attenuation analysis of vertebral bodies." .
+
+rr:LiverAttenuation a schema:DefinedTerm ;
+    schema:name "LiverAttenuation" ;
+    schema:description "Quantitative attenuation analysis of hepatic parenchyma." .
+
+rr:L1_HU a schema:DefinedTerm ;
+    schema:name "L1_HU" ;
+    schema:description "Mean trabecular attenuation in the L1 vertebral body." .
+
+rr:L2_HU a schema:DefinedTerm ;
+    schema:name "L2_HU" ;
+    schema:description "Mean trabecular attenuation in the L2 vertebral body." .
+
+rr:TH12_HU a schema:DefinedTerm ;
+    schema:name "TH12_HU" ;
+    schema:description "Optional thoracic vertebral attenuation parameter." .
+
+rr:LIVER_HU a schema:DefinedTerm ;
+    schema:name "LIVER_HU" ;
+    schema:description "Mean attenuation in hepatic parenchymal ROI." .
+
+rr:SPLEEN_HU a schema:DefinedTerm ;
+    schema:name "SPLEEN_HU" ;
+    schema:description "Mean attenuation in splenic ROI." .
+
+rr:LIVER_SPLEEN_DIFF a schema:DefinedTerm ;
+    schema:name "LIVER_SPLEEN_DIFF" ;
+    schema:description "Difference between liver attenuation and spleen attenuation." .
+
+rr:LIVER_SPLEEN_RATIO a schema:DefinedTerm ;
+    schema:name "LIVER_SPLEEN_RATIO" ;
+    schema:description "Ratio between liver attenuation and spleen attenuation." .
+
+rr:RSIF a schema:DefinedTerm ;
+    schema:name "RSIF" ;
+    schema:description "ResetRay Structured Imaging Format." .
+
+rr:L1_HU rr:isMeasurementOf rr:VertebralAttenuation .
+rr:L2_HU rr:isMeasurementOf rr:VertebralAttenuation .
+rr:TH12_HU rr:isMeasurementOf rr:VertebralAttenuation .
+
+rr:LIVER_HU rr:isMeasurementOf rr:LiverAttenuation .
+rr:SPLEEN_HU rr:isMeasurementOf rr:LiverAttenuation .
+rr:LIVER_SPLEEN_DIFF rr:isDerivedParameterOf rr:LiverAttenuation .
+rr:LIVER_SPLEEN_RATIO rr:isDerivedParameterOf rr:LiverAttenuation .
+
+rr:VertebralAttenuation rr:derivedFrom rr:CTStudy .
+rr:LiverAttenuation rr:derivedFrom rr:CTStudy .
+
+rr:ROI rr:usedFor rr:VertebralAttenuation .
+rr:ROI rr:usedFor rr:LiverAttenuation .
+
+rr:RSIF rr:represents rr:CTStudy .
+rr:RSIF rr:contains rr:ROI .
+rr:RSIF rr:contains rr:L1_HU .
+rr:RSIF rr:contains rr:LIVER_HU .
