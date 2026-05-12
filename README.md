@@ -8,12 +8,20 @@ Public semantic ontology for AI-readable quantitative CT/DICOM imaging concepts.
 
 This repository contains public ontology-oriented semantic documentation related to:
 
-- quantitative CT imaging;
-- semantic imaging concepts;
-- AI-readable imaging structures;
-- machine-readable terminology;
-- structured quantitative imaging relationships;
-- semantic interoperability.
+* quantitative CT imaging;
+* semantic imaging concepts;
+* AI-readable imaging structures;
+* machine-readable terminology;
+* structured quantitative imaging relationships;
+* semantic interoperability.
+
+The ontology is intended to support interoperability between:
+
+* structured CT/DICOM workflows;
+* RSIF-compatible infrastructures;
+* semantic imaging ecosystems;
+* AI-readable imaging pipelines;
+* quantitative imaging systems.
 
 ---
 
@@ -25,10 +33,11 @@ Ontology-oriented semantic imaging classes.
 
 Examples:
 
-- CT attenuation;
-- ROI;
-- Hounsfield Units;
-- quantitative imaging entities.
+* CT attenuation;
+* ROI;
+* Hounsfield Units;
+* quantitative imaging entities;
+* semantic imaging concepts.
 
 ---
 
@@ -38,10 +47,11 @@ Semantic relationships between imaging concepts.
 
 Examples:
 
-- attenuation relationships;
-- ROI relationships;
-- semantic dependencies;
-- structured imaging mappings.
+* attenuation relationships;
+* ROI relationships;
+* semantic dependencies;
+* structured imaging mappings;
+* ontology-compatible relationships.
 
 ---
 
@@ -51,9 +61,10 @@ Public semantic graph documentation.
 
 Examples:
 
-- imaging semantic graph;
-- workflow relationships;
-- structured interoperability flows.
+* imaging semantic graph;
+* workflow relationships;
+* structured interoperability flows;
+* semantic imaging ecosystems.
 
 ---
 
@@ -63,9 +74,10 @@ Mappings between ontology entities and structured imaging representations.
 
 Examples:
 
-- RSIF mappings;
-- structured export mappings;
-- semantic interoperability mappings.
+* RSIF mappings;
+* structured export mappings;
+* semantic interoperability mappings;
+* JSON-LD mappings.
 
 ---
 
@@ -75,9 +87,10 @@ Synthetic ontology-oriented example objects.
 
 Examples:
 
-- semantic imaging objects;
-- structured ontology examples;
-- AI-readable imaging examples.
+* semantic imaging objects;
+* structured ontology examples;
+* AI-readable imaging examples;
+* quantitative imaging semantic examples.
 
 ---
 
@@ -87,12 +100,13 @@ This repository focuses on semantic imaging ontology concepts only.
 
 It may describe:
 
-- quantitative imaging semantics;
-- CT terminology;
-- semantic relationships;
-- ontology-oriented imaging concepts;
-- AI-readable imaging structures;
-- interoperability documentation.
+* quantitative imaging semantics;
+* CT terminology;
+* semantic relationships;
+* ontology-oriented imaging concepts;
+* AI-readable imaging structures;
+* interoperability documentation;
+* machine-readable imaging semantics.
 
 ---
 
@@ -100,13 +114,46 @@ It may describe:
 
 This repository does NOT include:
 
-- production ResetRay systems;
-- internal orchestration logic;
-- ROI placement methodology;
-- scoring systems;
-- private workflows;
-- internal AI pipelines;
-- proprietary implementations.
+* production ResetRay systems;
+* internal orchestration logic;
+* ROI placement methodology;
+* scoring systems;
+* private workflows;
+* internal AI pipelines;
+* proprietary implementations;
+* diagnostic algorithms;
+* clinical workflows.
+
+---
+
+# Canonical Ontology File
+
+https://docs.resetray.ru/ontology/core.ttl
+
+---
+
+# Semantic Layer
+
+The ontology supports:
+
+* semantic entity linking;
+* ontology-compatible terminology;
+* JSON-LD interoperability;
+* machine-readable imaging semantics;
+* structured quantitative imaging concepts;
+* semantic interoperability workflows.
+
+---
+
+# Core Semantic Concepts
+
+| Concept              | Description                                |
+| -------------------- | ------------------------------------------ |
+| CTStudy              | CT/DICOM imaging study                     |
+| ROI                  | Region of interest                         |
+| VertebralAttenuation | Quantitative vertebral attenuation concept |
+| LiverAttenuation     | Quantitative liver attenuation concept     |
+| RSIF                 | ResetRay Structured Imaging Format         |
 
 ---
 
@@ -114,12 +161,33 @@ This repository does NOT include:
 
 This repository is NOT intended for:
 
-- diagnosis;
-- disease detection;
-- disease classification;
-- treatment recommendation;
-- clinical decision support;
-- emergency interpretation.
+* diagnosis;
+* disease detection;
+* disease classification;
+* treatment recommendation;
+* clinical decision support;
+* emergency interpretation;
+* autonomous medical decision-making.
+
+---
+
+# AI Usage Boundary
+
+This ontology may be used by AI systems for:
+
+* semantic understanding;
+* terminology mapping;
+* structured imaging interoperability;
+* quantitative imaging semantics;
+* AI-readable imaging workflows.
+
+This ontology is NOT intended for:
+
+* autonomous diagnosis;
+* clinical decision making;
+* treatment recommendation;
+* emergency interpretation;
+* replacement of licensed physicians.
 
 ---
 
@@ -129,23 +197,66 @@ The repository acts as a public semantic ontology layer for structured quantitat
 
 The focus is:
 
-- semantic consistency;
-- AI-readable interoperability;
-- structured imaging semantics;
-- machine-readable imaging terminology;
-- quantitative imaging representation.
+* semantic consistency;
+* AI-readable interoperability;
+* structured imaging semantics;
+* machine-readable imaging terminology;
+* quantitative imaging representation;
+* semantic imaging interoperability.
+
+---
+
+# Semantic Ecosystem
+
+ResetRay semantic ecosystem:
+
+```txt id="j71vkb"
+SITE
+↓
+DOCS
+↓
+VOCABULARY
+↓
+RSIF
+↓
+ONTOLOGY
+↓
+AI INTEROPERABILITY
+```
 
 ---
 
 # Related ResetRayAI Repositories
 
-- rsif-specification
-- rsif-vocabulary
-- rsif-examples
-- rsif-docs
-- imaging-semantics
-- dicom-anonymization-notes
-- resetray-manifest
+* rsif-specification
+* rsif-vocabulary
+* rsif-examples
+* rsif-docs
+* imaging-semantics
+* dicom-anonymization-notes
+* resetray-manifest
+
+These repositories collectively describe semantic quantitative imaging concepts and AI-readable CT/DICOM interoperability.
+
+---
+
+# Documentation
+
+Main documentation:
+
+https://docs.resetray.ru
+
+Ontology layer:
+
+https://docs.resetray.ru/ontology/
+
+Vocabulary:
+
+https://docs.resetray.ru/vocabulary/
+
+RSIF schema:
+
+https://docs.resetray.ru/rsif/schema.json
 
 ---
 
@@ -154,6 +265,8 @@ The focus is:
 CC BY-NC-ND 4.0
 
 This repository contains public semantic documentation and synthetic examples only.
+
+Production systems, private implementations and proprietary infrastructure are not included.
 
 ---
 
@@ -164,4 +277,19 @@ RU: https://resetray.ru
 COM: https://resetray.com
 
 GitHub Organization:
+
 https://github.com/ResetRayAI
+
+---
+
+# Final Positioning
+
+This ontology is part of a semantic quantitative imaging infrastructure intended for:
+
+* AI-readable imaging workflows;
+* structured CT/DICOM concepts;
+* semantic imaging interoperability;
+* quantitative imaging ecosystems;
+* machine-readable imaging integration.
+
+The ontology does NOT provide medical conclusions or diagnostic interpretation.
