@@ -258,6 +258,15 @@ RSIF schema:
 
 https://docs.resetray.ru/rsif/schema.json
 
+Canonical documentation:
+
+https://docs.resetray.ru
+
+Semantic ecosystem:
+
+https://docs.resetray.ru/ecosystem/
+
+
 ---
 
 # License
