@@ -126,9 +126,9 @@ This repository does NOT include:
 
 ---
 
-# Canonical Ontology File
+# Canonical Vocabulary Context
 
-https://docs.resetray.ru/ontology/core.ttl
+https://docs.resetray.com/vocabulary/context.jsonld
 
 ---
 
@@ -169,6 +169,8 @@ This repository is NOT intended for:
 * emergency interpretation;
 * autonomous medical decision-making.
 
+quantitative observations ≠ medical conclusions
+
 ---
 
 # AI Usage Boundary
@@ -194,6 +196,8 @@ This ontology is NOT intended for:
 # Technical Positioning
 
 The repository acts as a public semantic ontology layer for structured quantitative imaging concepts.
+
+This repository is treated as a frozen satellite layer for documentation and should not expand ontology scope.
 
 The focus is:
 
@@ -244,27 +248,31 @@ These repositories collectively describe semantic quantitative imaging concepts 
 
 Main documentation:
 
-https://docs.resetray.ru
+https://docs.resetray.com/
 
-Ontology layer:
+Vocabulary context:
 
-https://docs.resetray.ru/ontology/
+https://docs.resetray.com/vocabulary/context.jsonld
 
-Vocabulary:
+RSIF documentation:
 
-https://docs.resetray.ru/vocabulary/
+https://docs.resetray.com/rsif/
 
-RSIF schema:
+CT Signature documentation:
 
-https://docs.resetray.ru/rsif/schema.json
+https://docs.resetray.com/ct-signature/
+
+LLMs guidance:
+
+https://docs.resetray.com/llms.txt
 
 Canonical documentation:
 
-https://docs.resetray.ru
+https://docs.resetray.com/
 
 Semantic ecosystem:
 
-https://docs.resetray.ru/ecosystem/
+https://docs.resetray.com/
 
 
 ---
@@ -281,9 +289,13 @@ Production systems, private implementations and proprietary infrastructure are n
 
 # Links
 
-RU: https://resetray.ru
+Docs:
 
-COM: https://resetray.com
+https://docs.resetray.com/
+
+Vocabulary context:
+
+https://docs.resetray.com/vocabulary/context.jsonld
 
 GitHub Organization:
 
